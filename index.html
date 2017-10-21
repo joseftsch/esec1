@@ -4,13 +4,12 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+		<title>ESEC1 2017/2018 - FH Joanneum - Intro</title>
 
 		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
-
-		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="css/theme/white.css">
 		<link rel="stylesheet" href="lib/css/zenburn.css">
+		<!-- <link rel="stylesheet" href="css/reveal-override.css"/> -->
 
 		<!-- Printing and PDF exports -->
 		<script>
@@ -24,8 +23,62 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+
+				<section data-markdown data-background-color="#79B635" data-background-image="images/logo.png" data-background-position="top right 0px" data-background-size="auto">
+					<textarea data-template>
+							### E-Security 1 - Grundlagen
+							#### Wintersemester 2017/2018
+							FH Joanneum
+						</textarea>
+				</section>
+
+				<section data-markdown data-background-color="#79B635" data-background-image="images/logo.png" data-background-position="top right 0px" data-background-size="auto">
+					<textarea data-template>
+							### Vorstellung - Wer bin ich?
+							- DI (FH) Josef Tschiggerl
+							- externer Lehrbeauftragter
+							- Absolvent IMA05 an der FH Joanneum
+							- ~7 Jahre bei Wirecard CEE als Team Lead Operation Engineer
+						</textarea>
+				</section>
+
+				<section data-markdown data-background-color="#79B635" data-background-image="images/logo.png" data-background-position="top right 0px" data-background-size="auto">
+					<textarea data-template>
+							### E-Security 1 @ AIM
+							- 2 SWS -> 2 ECTS
+							- Integrierte Lehrveranstaltung
+							 - Vorlesungen und Übungen
+							- Benotung über Mitarbeit, Präsentationen, Ausarbeitungen
+						</textarea>
+				</section>
+
+				<section data-markdown data-background-color="#79B635" data-background-image="images/logo.png" data-background-position="top right 0px" data-background-size="auto">
+					<textarea data-template>
+							### E-Security 1 @ AIM
+							- Einführung und Terminologie
+							- Sicherheitsmanagement
+							- Normen und Zertifizierungen (ISO 27k Serie, BSI, VdS 3473, PCI)
+							- Bedrohungsklassifizierung und Risikoanalyse
+							- "Tools of the trade"
+							- Abschlussübung
+						</textarea>
+				</section>
+
+				<section data-markdown data-background-color="#79B635" data-background-image="images/logo.png" data-background-position="top right 0px" data-background-size="auto">
+					<textarea data-template>
+							### Vorstellungsrunde
+							- Ihre Erwartungen an ESEC?
+							- Ihr Zugang zu E-Security im Alltag?
+						</textarea>
+				</section>
+
+				<section data-markdown data-background-color="#79B635" data-background-image="images/logo.png" data-background-position="top right 0px" data-background-size="auto">
+					<textarea data-template>
+							### Tag Cloud und Buzzwords
+							- hier kommt die Tag Cloud hin
+						</textarea>
+				</section>
+
 			</div>
 		</div>
 
@@ -33,15 +86,15 @@
 		<script src="js/reveal.js"></script>
 
 		<script>
-			// More info about config & dependencies:
-			// - https://github.com/hakimel/reveal.js#configuration
-			// - https://github.com/hakimel/reveal.js#dependencies
 			Reveal.initialize({
+				controls: false,
+				progress: true,
+				slideNumber: true,
 				dependencies: [
 					{ src: 'plugin/markdown/marked.js' },
 					{ src: 'plugin/markdown/markdown.js' },
 					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
 				]
 			});
 		</script>
