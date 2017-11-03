@@ -1,12 +1,12 @@
 # ESEC1 2017/2018 - FH Joanneum
-### ["Vorstellung/Intro"](https://joseftsch.github.io/esec1/01_intro/)
+### ["01_Vorstellung/Intro"](https://joseftsch.github.io/esec1/01_intro/)
 * Vorstellung Vortragender
 * Aufbau der Lehrveranstaltung
 * Vorstellungsrunde Studierende
 * Tag Cloud
 #### Links
 * ["Wirecard Central Eastern Europe GmbH"](https://www.wirecard.at)
-### ["Terminologie"](https://joseftsch.github.io/esec1/02_terminologie/)
+### ["02_Terminologie"](https://joseftsch.github.io/esec1/02_terminologie/)
 * CIA: Confidentiality, Integrity, Availability
 * AAA: Authentication, Authorization, Accounting
 * Bedrohungen
@@ -20,5 +20,5 @@
 * Xerox:
   * http://connect.blogs.xerox.com/2013/08/06/always-listening-to-our-customers-clarification-on-scanning-issue/#.Weuai5-Wait
   * http://www.dkriesel.com/en/blog/2013/0802_xerox-workcentres_are_switching_written_numbers_when_scanning
-### ["Sicherheitsmanagement"](https://joseftsch.github.io/esec1/03_sicherheitsmanagement/)
+### ["03_Sicherheitsmanagement"](https://joseftsch.github.io/esec1/03_sicherheitsmanagement/)
 * ...
