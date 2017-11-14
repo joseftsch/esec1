@@ -26,5 +26,5 @@
 * Organisationsstruktur
 * Policies
 * Awareness Training
-### ["04_Sicherheitsmanagement_Ue"](https://joseftsch.github.io/esec1/04_sicherheitsmanagement_ue/)
+### ["04_Sicherheitsmanagement_Übung"](https://joseftsch.github.io/esec1/04_sicherheitsmanagement_ue/)
 * Übungseinheit zu "Sicherheitsmanagement"
