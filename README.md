@@ -28,3 +28,5 @@
 * Awareness Training
 ### ["04_Sicherheitsmanagement_Übung"](https://joseftsch.github.io/esec1/04_sicherheitsmanagement_ue/)
 * Übungseinheit zu "Sicherheitsmanagement"
+  * Gruppenarbeit/Präsentation
+### ["05_PCI"](https://joseftsch.github.io/esec1/05_pci/)
