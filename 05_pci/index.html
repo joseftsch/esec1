@@ -134,10 +134,246 @@
 				<section data-markdown data-background-image="images/logo.jpg" data-background-position="top right 0px" data-background-size="20% auto">
 					<textarea data-template>
 							#### Req 1: Install and maintain a firewall configuration to protect cardholder data
-							- aktive (Windows) Firewall - kann nicht deaktiviert werden
-							
+							- aktive (Windows) Firewall auf Notebooks
+							  - Für den User nicht zu deaktivieren
+							- Notebook Konfiguration für in/ausserhalb der Domaine
 						</textarea>
 				</section>
+
+				<section data-markdown data-background-image="images/logo.jpg" data-background-position="top right 0px" data-background-size="20% auto">
+					<textarea data-template>
+							#### Req 2: Do not use vendor-supplied defaults for system passwords and other security parameters
+							- Default Passwörter ändern/entfernen
+							- Default User ändern/entfernen
+							- Beliebtes Sample: Userliste, SNMP User
+							- Gibt es dafür eine Policy im Unternehmen?
+						</textarea>
+				</section>
+
+				<section data-markdown data-background-image="images/logo.jpg" data-background-position="top right 0px" data-background-size="20% auto">
+					<textarea data-template>
+							#### Req 2: Do not use vendor-supplied defaults for system passwords and other security parameters
+							- "industry-accepted system hardening standards"
+							- Konfigurations Standard dokumentiert
+							  - Wie wird eine neue VM Installiert?
+								- Welche (manuellen) Nacharbeiten sind zu tun?
+								- Welche Services laufen per Default?
+							- "One primary function per server"
+						</textarea>
+				</section>
+
+				<section data-markdown data-background-image="images/logo.jpg" data-background-position="top right 0px" data-background-size="20% auto">
+					<textarea data-template>
+							#### Req 2: Do not use vendor-supplied defaults for system passwords and other security parameters
+							- Welche Tätigkeiten sind zu tun bevor ein Server "in Produktion" gehen kann
+							- Pro Server - eine "Funktionsbeschreibung"
+							  - Welche Prozesse dürfen laufen
+								- Welche Sockets sind in Verwendung
+							- Server Zugriff muss verschlüsselt sein
+						</textarea>
+				</section>
+
+				<section data-markdown data-background-image="images/logo.jpg" data-background-position="top right 0px" data-background-size="20% auto">
+					<textarea data-template>
+							#### Req 2: Do not use vendor-supplied defaults for system passwords and other security parameters
+							- "Inventar Liste"
+							  - Jegliche Software/Hardware welche sich im Einsatz befindet (Versionsnummer, ...)
+						</textarea>
+				</section>
+
+				<section data-markdown data-background-image="images/logo.jpg" data-background-position="top right 0px" data-background-size="20% auto">
+					<textarea data-template>
+							#### Req 3: Protect stored cardholder data
+							- Nur das Speichern was gebraucht wird
+							- Data Retention Policy
+							- CVC darf nur bis Autorisierung gespeichert werden
+							- "Maskierte" Kreditkarten Nummer in Logs
+							  - Policy vs. Realität
+						</textarea>
+				</section>
+
+				<section data-markdown data-background-image="images/logo.jpg" data-background-position="top right 0px" data-background-size="20% auto">
+					<textarea data-template>
+							#### Req 3: Protect stored cardholder data
+							- PAN darf nur verschlüsselt gespeichert werden
+							- Key Management Prozess muss vorhanden sein
+							  - "Key custodians", "Key renewal"
+							- Dokumentation und Showcase der Verschlüsselung
+							  - Wie ist sie im Code implementiert?
+						</textarea>
+				</section>
+
+				<section data-markdown data-background-image="images/logo.jpg" data-background-position="top right 0px" data-background-size="20% auto">
+					<textarea data-template>
+							#### Req 4: Encrypt transmission of cardholder data across open, public networks
+							- Ein- und ausgehende Verbindungen
+							  - Welche Ciphers werden unterstützt/erlaubt
+								- TLS 1.0 bis 30. Juni 2018
+							- Vertrauenswürdige Zertifikate verwenden im Browser
+							- Niemals PANs in Klartext verschicken
+						</textarea>
+				</section>
+
+				<section data-markdown data-background-image="images/logo.jpg" data-background-position="top right 0px" data-background-size="20% auto">
+					<textarea data-template>
+							#### Req 5: Protect all systems against malware and regularly update anti-virus software or programs
+							- Betrifft Server als auch PCs/Notebooks
+							- Wird EOL Software eingesetzt?
+							- Patchlevel jeglicher Software
+						</textarea>
+				</section>
+
+				<section data-markdown data-background-image="images/logo.jpg" data-background-position="top right 0px" data-background-size="20% auto">
+					<textarea data-template>
+							#### Req 5: Protect all systems against malware and regularly update anti-virus software or programs
+							- Anti Virus/Rootkit Schutz vorhanden
+							- Wie wird man auf neue Gefahren/Patches aufmerksam?
+							- Schutz darf auf Clients nicht deaktivierbar sein (Signatur Update?)
+							</section>
+						</textarea>
+				</section>
+
+				<section data-markdown data-background-image="images/logo.jpg" data-background-position="top right 0px" data-background-size="20% auto">
+					<textarea data-template>
+							#### Req 6: Develop and maintain secure systems and applications
+							- Risiko Ranking zwischen Low, Medium, High
+							- Entscheidung über Ranking obligt Unternehmen
+							- Development mit "best practice" Methoden
+							- Test Accounts entfernen (keine Live-Daten für Tests)
+							</section>
+						</textarea>
+				</section>
+
+				<section data-markdown data-background-image="images/logo.jpg" data-background-position="top right 0px" data-background-size="20% auto">
+					<textarea data-template>
+							#### Req 6: Develop and maintain secure systems and applications
+							- "Change control in place"
+							  - Nachverfolgbarkeit einer Änderung bis zur Produktion
+								- Impact, Approval und Back-out
+							- Separierte Test/Development und Produktionsumgebung
+							- Getrennte Zuständigkeit für Produktion und Entwicklung
+							</section>
+						</textarea>
+				</section>
+
+				<section data-markdown data-background-image="images/logo.jpg" data-background-position="top right 0px" data-background-size="20% auto">
+					<textarea data-template>
+							#### Req 6: Develop and maintain secure systems and applications
+							- Schulungen für Entwickler
+							  - Extern/Intern möglich
+								- Nachverfolgbarkeit der Teilnahme
+							- Vermeidung von ...
+							  - ... Bufferoverflow
+								- ... Injection
+								- ... XSS
+							- Error Handling (keine Stack Traces, interne Informationen)
+							</section>
+						</textarea>
+				</section>
+
+				<section data-markdown data-background-image="images/logo.jpg" data-background-position="top right 0px" data-background-size="20% auto">
+					<textarea data-template>
+							#### Req 7: Restrict access to cardholder data by business need to know
+							- Wer hat Zugriff zu sensiblen Daten und warum? (Need to know)
+							- Definieren von Rollen/Gruppen und deren Aufgaben und Rechte am System
+							- Rechte werden basierend auf Job-Rolle vergeben (Keine Entwickler in Produktion)
+							- Vergabe von neuen Rechten muss Dokumentiert sein
+							</section>
+						</textarea>
+				</section>
+
+
+				<section data-markdown data-background-image="images/logo.jpg" data-background-position="top right 0px" data-background-size="20% auto">
+					<textarea data-template>
+							#### Req 8: Identify and authenticate access to system components
+							- Eindeutige nachverfolgbarkeit von User-Aktionen (Audit Trail)
+							- Keine geteilten/generische Accounts
+							- Log-out nach Inaktivität, Passwortkomplexität, ...
+							- Account wird gesperrt nach zu vielen Fehlversuchen
+							</section>
+						</textarea>
+				</section>
+
+				<section data-markdown data-background-image="images/logo.jpg" data-background-position="top right 0px" data-background-size="20% auto">
+					<textarea data-template>
+							#### Req 9: Restrict physical access to cardholder data
+							- Zutrittskontrollen zum Büro und Rechenzentrum
+							- Einrichten eines "sensiblen Bereichs"
+							- Abgesperrte Racks
+							- Wie wird zwischen Besucher und Mitarbeiter unterschieden
+							  - Besucher Log, Wo darf ein Besucher hin?
+							</section>
+						</textarea>
+				</section>
+
+				<section data-markdown data-background-image="images/logo.jpg" data-background-position="top right 0px" data-background-size="20% auto">
+					<textarea data-template>
+							#### Req 9: Restrict physical access to cardholder data
+							- Vernichtung nicht mehr benötigter Hardware (Backup-Bänder)
+							- Shreddern von sensiblen Informationen
+							- Finden von nicht erlaubten Netzwerkgeräten
+							</section>
+						</textarea>
+				</section>
+
+				<section data-markdown data-background-image="images/logo.jpg" data-background-position="top right 0px" data-background-size="20% auto">
+					<textarea data-template>
+							#### Req 10: Track and monitor all access to network resources and cardholder data
+							- Eindeutige Zuordnung von User-ID zur Person
+							- Unveränderbarkeit der Log-Informationen
+							- Jegliche Aktion des Users geloggt
+							- Akkurat NTP Einstellungen
+							</section>
+						</textarea>
+				</section>
+
+				<section data-markdown data-background-image="images/logo.jpg" data-background-position="top right 0px" data-background-size="20% auto">
+					<textarea data-template>
+							#### Req 10: Track and monitor all access to network resources and cardholder data
+							- Automatische Auswertung der Log Information
+							- Alerting auf bestimmte Muster einrichten (FIM)
+							- Tägliches Review/Beurteilung der Logs
+							- Audit Log Retention (mindestens ein Jahr)
+							</section>
+						</textarea>
+				</section>
+
+				<section data-markdown data-background-image="images/logo.jpg" data-background-position="top right 0px" data-background-size="20% auto">
+					<textarea data-template>
+							#### Req 11: Regularly test security systems and processes
+							- WiFi Scan im Gebäude
+							- Incident Response Plan für "bösartige Netzwerkgeräte"
+							- Interne und externe Vulnerability-Scan jedes Quartal (von einem qualifizierten Mitarbeiter)
+							- Re-Scan nach Beseitigung der Schwachstelle
+							</section>
+						</textarea>
+				</section>
+
+
+				<section data-markdown data-background-image="images/logo.jpg" data-background-position="top right 0px" data-background-size="20% auto">
+					<textarea data-template>
+							#### Req 11: Regularly test security systems and processes
+							- Pen-Test einmal im Jahr durch externes Unternehmen
+							  - Erfassung und Beseitung der Schwachstellen
+							- Jedes Netzwerk Segment muss gescannt werden
+							- Einsatz von IDS System
+							</section>
+						</textarea>
+				</section>
+
+				<section data-markdown data-background-image="images/logo.jpg" data-background-position="top right 0px" data-background-size="20% auto">
+					<textarea data-template>
+							#### Req 12:  Maintain a policy that addresses information security for all personnel
+							- Security Policy entwickeln, warten und leben
+							- Risiko Bewertungsysstem entwickeln
+							  - Jährlich mit ausführlicher Dokumentation und Einschätzung
+							- Awareness Training
+							- Mitarbeiterscreening
+							- Erstellen eines "Incident Response Plans"
+							</section>
+						</textarea>
+				</section>
+
 
 				<section data-markdown data-background-image="images/logo.jpg" data-background-position="top right 0px" data-background-size="20% auto">
 					<textarea data-template>
