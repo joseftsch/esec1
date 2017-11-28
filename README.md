@@ -30,3 +30,23 @@
 * Übungseinheit zu "Sicherheitsmanagement"
   * Gruppenarbeit/Präsentation
 ### ["05_PCI"](https://joseftsch.github.io/esec1/05_pci/)
+* Motivation und Geschichte von PCI
+* Unterschiedliche Standards
+* Was ist den eine Kreditkarte?
+* PCI DSS 1-12
+#### Links
+* PCI DSS 3.2
+  * https://www.pcisecuritystandards.org/documents/PCI_DSS_v3-2.pdf
+* Was darf gespeichert werden / was nicht?
+  * https://www.pcisecuritystandards.org/pdfs/pci_fs_data_storage.pdf
+* Merchant Level:
+  * https://www.visaeurope.com/receiving-payments/security/merchants
+  * https://www.pcicomplianceguide.org/faq/#4
+* Was ist am Magnetstreifen?
+  * https://www.bezahlen.de/magnetstreifen-vs-emv-chip.php
+* Luhn-Check
+  * https://www.freeformatter.com/credit-card-number-generator-validator.html
+* Interessantes rund um PCI
+  * https://www.vantiv.com/vantage-point/safer-payments/history-of-pci-data-security-standards
+  * https://www.slideshare.net/SaumyaVishnoi/introduction-to-pci-dss
+  * http://searchsecurity.techtarget.com/feature/The-history-of-the-PCI-DSS-standard-A-visual-timeline
