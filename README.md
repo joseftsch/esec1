@@ -50,3 +50,6 @@
   * https://www.vantiv.com/vantage-point/safer-payments/history-of-pci-data-security-standards
   * https://www.slideshare.net/SaumyaVishnoi/introduction-to-pci-dss
   * http://searchsecurity.techtarget.com/feature/The-history-of-the-PCI-DSS-standard-A-visual-timeline
+### ["06_PCI_Übung"](https://joseftsch.github.io/esec1/06_pci_ue/)
+* Übungseinheit zu "PCI DSS"
+  * Gruppenarbeit/Präsentation
