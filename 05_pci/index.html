@@ -35,7 +35,7 @@
 				<section data-markdown data-background-image="images/logo.jpg" data-background-position="top right 0px" data-background-size="20% auto">
 					<textarea data-template>
 							### Motivation und Geschichte (1)
-							- Anfang 2000er: starker Anstieg bei Kreditkaren Betrug im Internet
+							- Anfang 2000er: starker Anstieg bei Kreditkarten Betrug im Internet
 							- 2001: Visa stellt ersten Standard vor; allerdings wenig Akzeptanz und Umsetzung
 							- Ende 2004: PCI DSS 1.0 - Erster gemeinsamer Standard
 							- Ende 2006: Gründung "PCI Security Standards Council" aller Top-Player und PCI DSS 1.1
@@ -90,7 +90,7 @@
 					<textarea data-template>
 							### Merchant Level
 							- Verschiedene Kategorien und Vorgaben seitens Visa
-							- Level 1 = > 6Millionen TX pro Jahr: Vierteljährliche Security Scans und OnSite Audit
+							- Level 1 = > 6 Millionen TX pro Jahr: Vierteljährliche Security Scans und OnSite Audit
 						</textarea>
 				</section>
 
@@ -114,7 +114,7 @@
 				<section data-markdown data-background-image="images/logo.jpg" data-background-position="top right 0px" data-background-size="20% auto">
 					<textarea data-template>
 							#### Req 1: Install and maintain a firewall configuration to protect cardholder data
-							- Theorie und Praxis (Vergleich FW Rule review mit Wirklichkeit)
+							- Theorie und Praxis (Vergleich FW Rule Review mit Wirklichkeit)
 							- "Business justification" für schwache Protokolle
 							- Aufzeichnung aller verwendeten (unsicheren) Ports und Protokolle
 							- FW Review alle 6 Monate
@@ -124,10 +124,9 @@
 				<section data-markdown data-background-image="images/logo.jpg" data-background-position="top right 0px" data-background-size="20% auto">
 					<textarea data-template>
 							#### Req 1: Install and maintain a firewall configuration to protect cardholder data
-							- Beschränkungen für ein/ausgehenden Traffic ("Deny all")
-							- Zugriff aus dem Internet nur in dedizierte Zone
+							- Beschränkungen für ein/ausgehendem Traffic ("Deny all")
+							- Zugriff aus dem Internet nur in dedizierter Zone
 							- Anti Spoofing und "established" connections
-							- Beschränkung ausgehender Traffic
 						</textarea>
 				</section>
 
@@ -136,7 +135,7 @@
 							#### Req 1: Install and maintain a firewall configuration to protect cardholder data
 							- aktive (Windows) Firewall auf Notebooks
 							  - Für den User nicht zu deaktivieren
-							- Notebook Konfiguration für in/ausserhalb der Domaine
+							- Notebook Konfiguration für inner/ausserhalb der Domaine
 						</textarea>
 				</section>
 
@@ -228,7 +227,7 @@
 							#### Req 5: Protect all systems against malware and regularly update anti-virus software or programs
 							- Anti Virus/Rootkit Schutz vorhanden
 							- Wie wird man auf neue Gefahren/Patches aufmerksam?
-							- Schutz darf auf Clients nicht deaktivierbar sein (Signatur Update?)
+							- Schutz darf auf Clients nicht deaktivierbar sein (Signature Update?)
 							</section>
 						</textarea>
 				</section>
@@ -237,7 +236,7 @@
 					<textarea data-template>
 							#### Req 6: Develop and maintain secure systems and applications
 							- Risiko Ranking zwischen Low, Medium, High
-							- Entscheidung über Ranking obligt Unternehmen
+							- Entscheidung über Ranking obliegt Unternehmen
 							- Development mit "best practice" Methoden
 							- Test Accounts entfernen (keine Live-Daten für Tests)
 							</section>
@@ -274,10 +273,10 @@
 				<section data-markdown data-background-image="images/logo.jpg" data-background-position="top right 0px" data-background-size="20% auto">
 					<textarea data-template>
 							#### Req 7: Restrict access to cardholder data by business need to know
-							- Wer hat Zugriff zu sensiblen Daten und warum? (Need to know)
+							- Wer hat Zugriff zu sensible Daten und warum? (Need to know)
 							- Definieren von Rollen/Gruppen und deren Aufgaben und Rechte am System
 							- Rechte werden basierend auf Job-Rolle vergeben (Keine Entwickler in Produktion)
-							- Vergabe von neuen Rechten muss Dokumentiert sein
+							- Vergabe von neuen Rechten muss dokumentiert sein
 							</section>
 						</textarea>
 				</section>
@@ -286,7 +285,7 @@
 				<section data-markdown data-background-image="images/logo.jpg" data-background-position="top right 0px" data-background-size="20% auto">
 					<textarea data-template>
 							#### Req 8: Identify and authenticate access to system components
-							- Eindeutige nachverfolgbarkeit von User-Aktionen (Audit Trail)
+							- Eindeutige Nachverfolgbarkeit von User-Aktionen (Audit Trail)
 							- Keine geteilten/generische Accounts
 							- Log-out nach Inaktivität, Passwortkomplexität, ...
 							- Account wird gesperrt nach zu vielen Fehlversuchen
@@ -322,7 +321,7 @@
 							- Eindeutige Zuordnung von User-ID zur Person
 							- Unveränderbarkeit der Log-Informationen
 							- Jegliche Aktion des Users geloggt
-							- Akkurat NTP Einstellungen
+							- akkurate NTP Einstellungen
 							</section>
 						</textarea>
 				</section>
@@ -343,7 +342,7 @@
 							#### Req 11: Regularly test security systems and processes
 							- WiFi Scan im Gebäude
 							- Incident Response Plan für "bösartige Netzwerkgeräte"
-							- Interne und externe Vulnerability-Scan jedes Quartal (von einem qualifizierten Mitarbeiter)
+							- Interne und externe Vulnerability-Scans jedes Quartal (von einem qualifizierten Mitarbeiter)
 							- Re-Scan nach Beseitigung der Schwachstelle
 							</section>
 						</textarea>
