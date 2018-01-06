@@ -53,3 +53,8 @@
 ### ["06_PCI_Übung"](https://joseftsch.github.io/esec1/06_pci_ue/)
 * Übungseinheit zu "PCI DSS"
   * Analyse fiktives Unternehmen zum Projekt "PCI DSS"
+### ["07_Risikoanalyse"](https://joseftsch.github.io/esec1/07_risikoanalyse/)
+* Risikoanalyse
+#### Links
+* Salzburgresearch
+  * https://methodenpool.salzburgresearch.at/methode/risikoanalyse-2/#tab-EinsatzundNutzen
