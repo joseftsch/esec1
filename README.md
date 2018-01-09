@@ -1,12 +1,12 @@
 # ESEC1 2017/2018 - FH Joanneum
-### ["01_Vorstellung/Intro"](https://joseftsch.github.io/esec1/01_intro/)
+### ["01_Vorstellung/Intro"](https://joseftsch.github.io/esec1/01_intro/), 1LE
 * Vorstellung Vortragender
 * Aufbau der Lehrveranstaltung
 * Vorstellungsrunde Studierende
 * Tag Cloud
 #### Links
 * ["Wirecard Central Eastern Europe GmbH"](https://www.wirecard.at)
-### ["02_Terminologie"](https://joseftsch.github.io/esec1/02_terminologie/)
+### ["02_Terminologie"](https://joseftsch.github.io/esec1/02_terminologie/), 1LE
 * CIA: Confidentiality, Integrity, Availability
 * AAA: Authentication, Authorization, Accounting
 * Bedrohungen
@@ -20,16 +20,16 @@
 * Xerox:
   * http://connect.blogs.xerox.com/2013/08/06/always-listening-to-our-customers-clarification-on-scanning-issue/#.Weuai5-Wait
   * http://www.dkriesel.com/en/blog/2013/0802_xerox-workcentres_are_switching_written_numbers_when_scanning
-### ["03_Sicherheitsmanagement"](https://joseftsch.github.io/esec1/03_sicherheitsmanagement/)
+### ["03_Sicherheitsmanagement"](https://joseftsch.github.io/esec1/03_sicherheitsmanagement/), 2LE
 * Sicherheitsmanagement
 * Personen, Ämter und Zuständigkeiten
 * Organisationsstruktur
 * Policies
 * Awareness Training
-### ["04_Sicherheitsmanagement_Übung"](https://joseftsch.github.io/esec1/04_sicherheitsmanagement_ue/)
+### ["04_Sicherheitsmanagement_Übung"](https://joseftsch.github.io/esec1/04_sicherheitsmanagement_ue/), 2LE
 * Übungseinheit zu "Sicherheitsmanagement"
   * Gruppenarbeit/Präsentation
-### ["05_PCI"](https://joseftsch.github.io/esec1/05_pci/)
+### ["05_PCI"](https://joseftsch.github.io/esec1/05_pci/), 2LE
 * Motivation und Geschichte von PCI
 * Unterschiedliche Standards
 * Was ist den eine Kreditkarte?
@@ -50,11 +50,12 @@
   * https://www.vantiv.com/vantage-point/safer-payments/history-of-pci-data-security-standards
   * https://www.slideshare.net/SaumyaVishnoi/introduction-to-pci-dss
   * http://searchsecurity.techtarget.com/feature/The-history-of-the-PCI-DSS-standard-A-visual-timeline
-### ["06_PCI_Übung"](https://joseftsch.github.io/esec1/06_pci_ue/)
+### ["06_PCI_Übung"](https://joseftsch.github.io/esec1/06_pci_ue/), 3LE
 * Übungseinheit zu "PCI DSS"
   * Analyse fiktives Unternehmen zum Projekt "PCI DSS"
-### ["07_Risikoanalyse"](https://joseftsch.github.io/esec1/07_risikoanalyse/)
+### ["07_Risikoanalyse"](https://joseftsch.github.io/esec1/07_risikoanalyse/), 2LE
 * Risikoanalyse
+* Incident Response Plan
 #### Links
 * Salzburgresearch
   * https://methodenpool.salzburgresearch.at/methode/risikoanalyse-2/#tab-EinsatzundNutzen
