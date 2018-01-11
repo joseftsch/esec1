@@ -59,4 +59,4 @@
 #### Links
 * Salzburgresearch: https://methodenpool.salzburgresearch.at/methode/risikoanalyse-2/#tab-EinsatzundNutzen
 ### ["08_Risikoanalyse_Übung"](https://joseftsch.github.io/esec1/08_risikoanalyse_ue/), 2LE
-* Übung zur LV "Risikoanalyse"
+* Übung zur LV "Risikoanalyse "
