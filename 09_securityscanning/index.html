@@ -1,0 +1,281 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>ESEC1 - Security Scanning (2017/2018)</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/white.css">
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+		<!-- <link rel="stylesheet" href="css/reveal-override.css"/> -->
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+
+				<section data-markdown data-background-color="#79B635">
+					<textarea data-template>
+							### E-Security 1 - Security Scanning
+							#### Wintersemester 2017/2018
+							FH JOANNEUM
+						</textarea>
+				</section>
+
+				<section data-markdown data-background-image="images/logo.jpg" data-background-position="top right 0px" data-background-size="20% auto">
+					<textarea data-template>
+							### Wozu?
+							- Einfache Möglichkeit um Übersicht über Netzwerk/Serverlandschaft zu bekommen
+							  - Schwachstellen, Patchlevel, ...
+							- Notwendig für Compliance
+						</textarea>
+				</section>
+
+				<section data-markdown data-background-image="images/logo.jpg" data-background-position="top right 0px" data-background-size="20% auto">
+					<textarea data-template>
+							### Varianten?
+							- Durchgeführt von interner Security Abteilung oder als "Aufklärung" von extern
+								- "Permission to Attack"
+								- Segmentation
+							- mit/ohne Credentials
+							- ...
+						</textarea>
+				</section>
+
+				<section data-markdown data-background-image="images/logo.jpg" data-background-position="top right 0px" data-background-size="20% auto">
+					<textarea data-template>
+							### Penetration Test
+							- PCI: 1x pro Jahr auf alle Applikationen
+							- Meist über mehrere Wochen mit Abschlussbericht
+							- "Profi-Hacker/Unternehmen"
+							- Black/Grey/White Box Ansatz
+						</textarea>
+				</section>
+
+				<section data-markdown data-background-image="images/logo.jpg" data-background-position="top right 0px" data-background-size="20% auto">
+					<textarea data-template>
+							### Hacking Prozess
+							<img src="images/09_securityscanning/process.jpg" style="background:none; border:none; box-shadow:none;">
+						</textarea>
+				</section>
+
+				<section data-markdown data-background-image="images/logo.jpg" data-background-position="top right 0px" data-background-size="20% auto">
+					<textarea data-template>
+							### Hacking Prozess - Reconnaissance
+							- Aktiv/Passiv
+							  - Aktiv: man versucht dem System vorsichtig Informationen zu entlocken
+							  - Passiv: nur zuhören
+						</textarea>
+				</section>
+
+				<section data-markdown data-background-image="images/logo.jpg" data-background-position="top right 0px" data-background-size="20% auto">
+					<textarea data-template>
+							### Hacking Prozess - Reconnaissance - Information Gathering
+							- So viel Details wie möglich über das "Opfer" finden
+							  - User Accounts
+								- Laufende Prozesse
+								- Offene Ports
+								- IP/DNS
+						</textarea>
+				</section>
+
+				<section data-markdown data-background-image="images/logo.jpg" data-background-position="top right 0px" data-background-size="20% auto">
+					<textarea data-template>
+							<img src="images/09_securityscanning/nikto.png" style="background:none; border:none; box-shadow:none;">
+						</textarea>
+				</section>
+
+				<section data-markdown data-background-image="images/logo.jpg" data-background-position="top right 0px" data-background-size="20% auto">
+					<textarea data-template>
+							### Hacking Prozess - Scanning
+							- meist Portscanner (zb. nmap)
+							- erkennen des Systems/Software (OS/service detection)
+							- schwierig hierbei unerkannt zu bleiben
+						</textarea>
+				</section>
+
+				<section data-markdown data-background-image="images/logo.jpg" data-background-position="top right 0px" data-background-size="20% auto">
+					<textarea data-template>
+							### Hacking Prozess - Gaining access
+							- ausnutzen von (bekannten) Schwachstellen und erlangen einer "root shell"
+							- bekannteste Software: Metasploit
+						</textarea>
+				</section>
+
+				<section data-markdown data-background-image="images/logo.jpg" data-background-position="top right 0px" data-background-size="20% auto">
+					<textarea data-template>
+							### Hacking Prozess - Maintaining access
+							- "Installieren"/aufbauen eines Zugangs zum System auch wenn Schwachstelle nicht mehr existiert
+							- Über längeren Zeitraum hinweg Informationen sammeln
+						</textarea>
+				</section>
+
+				<section data-markdown data-background-image="images/logo.jpg" data-background-position="top right 0px" data-background-size="20% auto">
+					<textarea data-template>
+							### Hacking Prozess - Clearing tracks
+							- Entfernen von "Beweisen"
+							  - Log files, timestamps, Prozess, ...
+							- Erkennen von Mustern somit erschwert
+						</textarea>
+				</section>
+
+				<section data-markdown data-background-image="images/logo.jpg" data-background-position="top right 0px" data-background-size="20% auto">
+					<textarea data-template>
+							### Hacking Prozess - Reporting
+							- Erstellen detailierter Analysen über Prozess
+							- Auflisten von Schwachstellen
+							- Auflisten von erlangten Informationen
+							- POC
+						</textarea>
+				</section>
+
+				<section data-markdown data-background-image="images/logo.jpg" data-background-position="top right 0px" data-background-size="20% auto">
+					<textarea data-template>
+							### ARP Poisoning/Spoofing
+							- Lookup IP->MAC
+							- Spoofing
+							  - gefälschten ARP Responses generiert => ARP Table im Switch überlastet
+							- Poisoning
+							  - Gezielt ARP Cache eines Computers überlasten
+							- Optimal für MITM Attacken (zb. Ettercap)
+						</textarea>
+				</section>
+
+				<section data-markdown data-background-image="images/logo.jpg" data-background-position="top right 0px" data-background-size="20% auto">
+					<textarea data-template>
+							### nmap Optionen und Scan
+							<pre><code data-trim data-noescape>
+								-sS: TCP SYN (Firewall)
+								-sV: Probe open ports to determine service/version info
+								--reason: Display the reason a port is in a particular state
+							</code></pre>
+							<pre><code data-trim data-noescape>josef@joseftp:~$ sudo nmap -sS -sV --reason 192.168.0.5
+
+Starting Nmap 7.12 ( https://nmap.org ) at 2018-01-13 21:38 CET
+Nmap scan report for 192.168.0.5
+Host is up, received arp-response (0.012s latency).
+Not shown: 998 closed ports
+Reason: 998 resets
+PORT   STATE SERVICE REASON         VERSION
+22/tcp open  ssh     syn-ack ttl 64 OpenSSH 7.4p1 Debian 10+deb9u2 (protocol 2.0)
+80/tcp open  http    syn-ack ttl 64 Apache httpd
+MAC Address: 7C:66:9D:xx:xx:xx (Texas Instruments)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel</code></pre>
+						</textarea>
+				</section>
+
+				<section data-markdown data-background-image="images/logo.jpg" data-background-position="top right 0px" data-background-size="20% auto">
+					<textarea data-template>
+							### Security Scanner
+							- On-premises
+							  - Nessus
+							  - OpenVAS
+							  - Nexpose
+							- Cloud/Appliance
+							  - Qualys
+								- ...
+						</textarea>
+				</section>
+
+				<section data-markdown data-background-image="images/logo.jpg" data-background-position="top right 0px" data-background-size="20% auto">
+					<textarea data-template>
+							### Security Scanner: Nessus
+							- Für "Home Use" gratis
+							- vordefinierte Profile
+							- simple Installation/Update
+							- Verschiedene Update Feed Varianten (kostenlos, 0-day, ...)
+						</textarea>
+				</section>
+
+				<section data-markdown data-background-image="images/logo.jpg" data-background-position="top right 0px" data-background-size="20% auto">
+					<textarea data-template>
+							<img src="images/09_securityscanning/nessus2.png" style="background:none; border:none; box-shadow:none;">
+						</textarea>
+				</section>
+
+				<section data-markdown data-background-image="images/logo.jpg" data-background-position="top right 0px" data-background-size="20% auto">
+					<textarea data-template>
+							<img src="images/09_securityscanning/nessus3.png" style="background:none; border:none; box-shadow:none;">
+						</textarea>
+				</section>
+
+				<section data-markdown data-background-image="images/logo.jpg" data-background-position="top right 0px" data-background-size="20% auto">
+					<textarea data-template>
+							### Security Scanner: OpenVAS
+							- OpenSource
+							- umfangreiche Konfiguration via Web UI
+							- einfach Updates via CLI Tool
+						</textarea>
+				</section>
+
+				<section data-markdown data-background-image="images/logo.jpg" data-background-position="top right 0px" data-background-size="20% auto">
+					<textarea data-template>
+							### Security Scanner: Nexpose
+							- Umfangreiche Security Suite
+							- Gratis für 30 Tage
+							- Auch als Cloud-base Variante
+						</textarea>
+				</section>
+
+				<section data-markdown data-background-image="images/logo.jpg" data-background-position="top right 0px" data-background-size="20% auto">
+					<textarea data-template>
+							### Kali Linux
+							- Linux Distribution basierende auf Debian/Ubuntu
+							- Voll gepackt mit Security/Pen Testing Tools
+							- Verfügbar als ISO und VM
+						</textarea>
+				</section>
+
+				<section data-markdown data-background-image="images/logo.jpg" data-background-position="top right 0px" data-background-size="20% auto">
+					<textarea data-template>
+							### E-Security 1 - Security Scanning - Übung
+							<a href="https://joseftsch.github.io/esec1/10_securityscanning_ue/">Link</a>
+						</textarea>
+				</section>
+
+				<section data-markdown data-background-color="#79B635">
+					<textarea data-template>
+							### E-Security 1 - Security Scanning
+							#### Wintersemester 2017/2018
+							FH JOANNEUM
+						</textarea>
+				</section>
+
+				<section data-markdown data-background-image="images/logo.jpg" data-background-position="top right 0px" data-background-size="20% auto">
+					<textarea data-template>
+							### Quellenverzeichnis
+							- Hacking Prozess: https://www.tutorialspoint.com/ethical_hacking/ethical_hacking_process.htm
+						</textarea>
+				</section>
+
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			Reveal.initialize({
+				controls: false,
+				progress: true,
+				slideNumber: true,
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+				]
+			});
+		</script>
+	</body>
+</html>

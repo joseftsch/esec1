@@ -59,4 +59,22 @@
 #### Links
 * Salzburgresearch: https://methodenpool.salzburgresearch.at/methode/risikoanalyse-2/#tab-EinsatzundNutzen
 ### ["08_Risikoanalyse_Übung"](https://joseftsch.github.io/esec1/08_risikoanalyse_ue/), 2LE
-* Übung zur LV "Risikoanalyse "
+* Übung zur LV "Risikoanalyse"
+### ["09_Security_Scanning"](https://joseftsch.github.io/esec1/09_securityscanning/), 1LE
+* Warum Security Scan?
+* "Hacking Ablauf"
+* Tools
+#### Links
+* Tools
+  * https://www.tutorialspoint.com/ethical_hacking/ethical_hacking_tools.htm
+  * Nessus (https://www.tenable.com/)
+  * OpenVAS (http://www.openvas.org/)
+  * Nexpose (https://www.rapid7.com/products/nexpose/)
+  * Kali Linux (https://www.kali.org/)
+* Infos
+  * https://null-byte.wonderhowto.com/how-to/hack-like-pro-advanced-nmap-for-reconnaissance-0151619/
+* Nmap
+  * https://nmap.org/book/man-host-discovery.html
+  * https://www.cyberciti.biz/security/nmap-command-examples-tutorials/
+### ["10_Security_Scanning_Übung"](https://joseftsch.github.io/esec1/10_securityscanning_ue/), 2LE
+* tbd
