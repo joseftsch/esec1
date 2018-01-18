@@ -77,4 +77,4 @@
   * https://nmap.org/book/man-host-discovery.html
   * https://www.cyberciti.biz/security/nmap-command-examples-tutorials/
 ### ["10_Security_Scanning_Übung"](https://joseftsch.github.io/esec1/10_securityscanning_ue/), 2LE
-* tbd
+* Scannen und analysieren von zwei VMs
