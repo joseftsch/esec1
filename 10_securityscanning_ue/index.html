@@ -34,8 +34,37 @@
 
 				<section data-markdown data-background-image="images/logo.jpg" data-background-position="top right 0px" data-background-size="20% auto">
 					<textarea data-template>
-							### Aufgabenstellung (1)
-							- ...
+							### Aufgabenstellung
+							- Kali Linux und Nexpose VM lokal in Betrieb nehmen
+							- Reconnaissance mit nmap (verschiedene Optionen probieren)
+							- Scannen der "verwundbaren" VMs mit Nessus, Openvas und Nexpose
+								- Tunen der Optionen
+								- Herausfinden von Unterschieden in den Scanergebnissen
+								- Was ist CVSS oä. ?
+								- Scannen mit/ohne Credentials
+							- Ausprobieren und testen andere Tools von Kali Linux
+						</textarea>
+				</section>
+
+				<section data-markdown data-background-image="images/logo.jpg" data-background-position="top right 0px" data-background-size="20% auto">
+					<textarea data-template>
+							### Credentials (1)
+							#### Kali Linux
+							- login: root/toor
+							- openvas (openvas-start)
+								- login: esec/esec
+							- nessus (/etc/init.d/nessusd start)
+								- login: esec/esec
+						</textarea>
+				</section>
+
+				<section data-markdown data-background-image="images/logo.jpg" data-background-position="top right 0px" data-background-size="20% auto">
+					<textarea data-template>
+							### Credentials (2)
+							#### Nexpose VM
+							- shell login: nexpose/nexpose
+							- web login: nxadmin/nxpassword
+							- key: https://www.rapid7.com/products/insightvm/download/
 						</textarea>
 				</section>
 
