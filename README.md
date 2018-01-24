@@ -78,3 +78,5 @@
   * https://www.cyberciti.biz/security/nmap-command-examples-tutorials/
 ### ["10_Security_Scanning_Übung"](https://joseftsch.github.io/esec1/10_securityscanning_ue/), 2LE
 * Scannen und analysieren von zwei VMs
+### ["11_Exploit_Übung"](https://joseftsch.github.io/esec1/11_exploit_ue/), 2LE
+* Scannen und Exploit von VMs
