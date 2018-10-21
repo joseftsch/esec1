@@ -47,7 +47,7 @@
 					<textarea data-template>
 							### Motivation und Geschichte (2)
 							- Eigener Vorstand und "Advisory Board" mit Top-Playern aus "Online Business"
-							- Unregelmäßige Updates/Erweiterungen (derzeit Version 3.2 aus April 2016)
+							- Unregelmäßige Updates/Erweiterungen (derzeit Version 3.2.1 aus Mai 2018)
 							- vor 2010 Akzeptanz von PCI DSS eher unterdurschschnittlich (technische Vorgaben, Audits, ...)
 						</textarea>
 				</section>
@@ -124,7 +124,7 @@
 				<section data-markdown data-background-image="images/logo.jpg" data-background-position="top right 0px" data-background-size="20% auto">
 					<textarea data-template>
 							#### Req 1: Install and maintain a firewall configuration to protect cardholder data
-							- Beschränkungen für ein/ausgehendem Traffic ("Deny all")
+							- Beschränkungen für ein/ausgehendem Traffic ("Deny all", Proxy, NAT, ...)
 							- Zugriff aus dem Internet nur in dedizierter Zone
 							- Anti Spoofing und "established" connections
 						</textarea>
@@ -217,7 +217,7 @@
 					<textarea data-template>
 							#### Req 5: Protect all systems against malware and regularly update anti-virus software or programs
 							- Betrifft Server als auch PCs/Notebooks
-							- Wird EOL Software eingesetzt?
+							- Wird EOL Software eingesetzt / "Compensating Control"
 							- Patchlevel jeglicher Software
 						</textarea>
 				</section>
@@ -262,7 +262,7 @@
 							  - Extern/Intern möglich
 								- Nachverfolgbarkeit der Teilnahme
 							- Vermeidung von ...
-							  - ... Bufferoverflow
+								- ... Bufferoverflow
 								- ... Injection
 								- ... XSS
 							- Error Handling (keine Stack Traces, interne Informationen)
@@ -286,7 +286,7 @@
 					<textarea data-template>
 							#### Req 8: Identify and authenticate access to system components
 							- Eindeutige Nachverfolgbarkeit von User-Aktionen (Audit Trail)
-							- Keine geteilten/generische Accounts
+							- Keine geteilten/generische Accounts (root/admin)
 							- Log-out nach Inaktivität, Passwortkomplexität, ...
 							- Account wird gesperrt nach zu vielen Fehlversuchen
 							</section>
@@ -310,7 +310,7 @@
 							#### Req 9: Restrict physical access to cardholder data
 							- Vernichtung nicht mehr benötigter Hardware (Backup-Bänder)
 							- Shreddern von sensiblen Informationen
-							- Finden von nicht erlaubten Netzwerkgeräten
+							- Finden von nicht erlaubten Netzwerkgeräten (WLAN?)
 							</section>
 						</textarea>
 				</section>
@@ -353,7 +353,7 @@
 					<textarea data-template>
 							#### Req 11: Regularly test security systems and processes
 							- Pen-Test einmal im Jahr durch externes Unternehmen
-							  - Erfassung und Beseitung der Schwachstellen
+							  - Erfassung und Beseitigung der Schwachstellen
 							- Jedes Netzwerk Segment muss gescannt werden
 							- Einsatz von IDS System
 							</section>
