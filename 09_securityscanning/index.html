@@ -38,6 +38,7 @@
 							- Einfache Möglichkeit um Übersicht über Netzwerk/Serverlandschaft zu bekommen
 							  - Schwachstellen, Patchlevel, ...
 							- Notwendig für Compliance
+							- Im Rahmen des Development Prozesses um Schwachstellen früh zu erkennen
 						</textarea>
 				</section>
 
@@ -47,13 +48,27 @@
 							- Durchgeführt von interner Security Abteilung oder als "Aufklärung" von extern
   							  - mit/ohne Credentials
 							  - Segmentation
-							  - Applikation, Netzwerk, Web, ...
+							  - Verschiedenste Ziele/Ebenen
 						</textarea>
 				</section>
 
 				<section data-markdown data-background-image="images/logo.jpg" data-background-position="top right 0px" data-background-size="20% auto">
 					<textarea data-template>
+							### Ebenen?
+							- Applikation
+							  - Fuzzing, Input Validation, ...
+							- Netzwerk
+							  - Poisining, VLAN, VOIP, ...
+							- Web
+							  - Encryption/Cipher, DOS, ...
+						</textarea>
+				</section>
+
+
+				<section data-markdown data-background-image="images/logo.jpg" data-background-position="top right 0px" data-background-size="20% auto">
+					<textarea data-template>
 							### Penetration Test 1
+							- "[...] authorized simulated attack on a computer system [...]"
 							- Meist über (mehrere) Woche(n)
 							  - Kick off, "Permission to Attack", Notfallkontakt, Abschlussbericht
 							- "Profi-Hacker/Unternehmen"
@@ -63,12 +78,12 @@
 
 				<section data-markdown data-background-image="images/logo.jpg" data-background-position="top right 0px" data-background-size="20% auto">
 					<textarea data-template>
-							### Penetration Test 2
+							### Penetration Test @ PCI
 							- 1x pro Jahr Pen-Test aller "customer facing" Schnittstellen
-							  - Fix nur für >= Medium
-							  - "automatic failures"
+							  - Fix für >= Medium
+							  - <a href="https://pci.qualys.com/static/help/merchant/vulnerabilities/pci_exceptions.htm">automatic failures</a>
 							- 1x pro Quartal interner Scan
-							  - Fix nur für >= High/Critical
+							  - Fix für >= High/Critical
 							- "Significant Change", Pre-Produktion Scan
 						</textarea>
 				</section>
@@ -184,10 +199,8 @@
 					<textarea data-template>
 							### ARP Poisoning/Spoofing
 							- Lookup IP->MAC
-							- Spoofing
-							  - generieren von gefälschten ARP Responses überlastet ARP Table im Switch
-							- Poisoning
-							  - Gezielt ARP Cache eines Computers überlasten
+							- gefälschten ARP Responses überlastet ARP Table im Switch/Computer
+							  - Pakete landen bei falschem Ziel
 							- Optimal für MITM Attacken (zb. Ettercap)
 						</textarea>
 				</section>
@@ -306,8 +319,8 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel</code></pre>
 
 				<section data-markdown data-background-image="images/logo.jpg" data-background-position="top right 0px" data-background-size="20% auto">
 					<textarea data-template>
-							### E-Security 1 - Security Scanning - Übung
-							<a href="https://joseftsch.github.io/esec1/10_securityscanning_ue/">Link</a>
+							### OWASP Top 10 2017
+							<a href="https://www.owasp.org/index.php/Category:OWASP_Top_Ten_2017_Project">OWASP</a>
 						</textarea>
 				</section>
 
@@ -323,6 +336,7 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel</code></pre>
 					<textarea data-template>
 							### Quellenverzeichnis
 							- Hacking Prozess: https://www.tutorialspoint.com/ethical_hacking/ethical_hacking_process.htm
+							- Pen Test: https://en.wikipedia.org/wiki/Penetration_test
 						</textarea>
 				</section>
 
