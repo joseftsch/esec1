@@ -128,6 +128,7 @@
 				<section data-markdown data-background-image="images/logo.jpg" data-background-position="top right 0px" data-background-size="20% auto">
 					<textarea data-template>
 							### Hacking Prozess - Reconnaissance
+							- Auswahl des "Opfers"/"weakest link"
 							- Aktiv/Passiv
 							  - Aktiv: man versucht dem System vorsichtig Informationen zu entlocken
 							  - Passiv: nur zuhören
@@ -197,13 +198,53 @@
 
 				<section data-markdown data-background-image="images/logo.jpg" data-background-position="top right 0px" data-background-size="20% auto">
 					<textarea data-template>
-							### ARP Poisoning/Spoofing
+							### Begriffe 1: ARP Poisoning/Spoofing
 							- Lookup IP->MAC
 							- gefälschten ARP Responses überlastet ARP Table im Switch/Computer
 							  - Pakete landen bei falschem Ziel
 							- Optimal für MITM Attacken (zb. Ettercap)
 						</textarea>
 				</section>
+
+				<section data-markdown data-background-image="images/logo.jpg" data-background-position="top right 0px" data-background-size="20% auto">
+					<textarea data-template>
+							### Begriffe 2: 0-day exploit/vulnerability
+							- Vulnerability: Bislang unbekannte Schwachstelle ohne verfügbaren Patch
+							- Exploit: Applikation die 0-day Vulnerability ausnutzen kann
+							- Beispiel: Stuxnet (4x Windows), RSA Hack (Flash Player)
+					</textarea>
+				</section>
+
+				<section data-markdown data-background-image="images/logo.jpg" data-background-position="top right 0px" data-background-size="20% auto">
+					<textarea data-template>
+							### Begriffe 3: CVSS (Common Vulnerability Scoring System)
+							- Scoring von 0 bis 10
+							- Formel/Berechnung ua. auf Basis von CIA und Verbreitung und Ausnutzbarkeit
+					</textarea>
+				</section>
+
+				<section data-markdown data-background-image="images/logo.jpg" data-background-position="top right 0px" data-background-size="20% auto">
+					<textarea data-template>
+							### Begriffe 3: CVE (Common Vulnerabilities and Exposures)
+							- Datenbank von Vulnerabilities
+							- Verwendung von eindeutigen IDs
+							- "Bewerbung" um ID notwendig. Gremium entscheidet über Vergabe.
+							- Beispiele:
+							  - <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2014-0160">HeartBleed</a>
+							  - <a href="https://nvd.nist.gov/vuln/detail/CVE-2017-5715">Spectre</a>
+					</textarea>
+				</section>
+
+				<section data-markdown data-background-image="images/logo.jpg" data-background-position="top right 0px" data-background-size="20% auto">
+					<textarea data-template>
+							### Begriffe 3: CVSS
+							- Common Vulnerability Scoring System
+							- 0-10 Scoring
+							- Formel/Berechnung ua. auf Basis von CIA und Verbreitung und Ausnutzbarkeit
+						</textarea>
+				</section>
+
+				exploit-db
 
 				<section data-markdown data-background-image="images/logo.jpg" data-background-position="top right 0px" data-background-size="20% auto">
 					<textarea data-template>
@@ -319,10 +360,14 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel</code></pre>
 
 				<section data-markdown data-background-image="images/logo.jpg" data-background-position="top right 0px" data-background-size="20% auto">
 					<textarea data-template>
-							### OWASP Top 10 2017
-							<a href="https://www.owasp.org/index.php/Category:OWASP_Top_Ten_2017_Project">OWASP</a>
+							### Exploit DB und OWASP Top 10 2017
+							- <a href="https://www.owasp.org/index.php/Category:OWASP_Top_Ten_2017_Project">OWASP</a>
+							- <a href="https://www.exploit-db.com/">exploitdb</a>
+							  - <a href="https://www.exploit-db.com/exploits/45638/">libssh</a>
 						</textarea>
 				</section>
+
+
 
 				<section data-markdown data-background-color="#79B635">
 					<textarea data-template>
