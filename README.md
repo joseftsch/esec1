@@ -80,3 +80,5 @@
 * Scannen und analysieren von zwei VMs
 ### ["11_Exploit_Übung"](https://joseftsch.github.io/esec1/11_exploit_ue/), 3LE
 * Scannen und Exploit von VMs
+### ["12_Security_Standards"](https://joseftsch.github.io/esec1/12_securitystandards/), 2LE
+* Verschiedene Standards, Frameworks und Guidelines in IT Security
