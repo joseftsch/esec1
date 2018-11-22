@@ -76,9 +76,12 @@
 * Nmap
   * https://nmap.org/book/man-host-discovery.html
   * https://www.cyberciti.biz/security/nmap-command-examples-tutorials/
-### ["10_Security_Scanning_Übung"](https://joseftsch.github.io/esec1/10_securityscanning_ue/), 2LE
-* Scannen und analysieren von zwei VMs
-### ["11_Exploit_Übung"](https://joseftsch.github.io/esec1/11_exploit_ue/), 3LE
-* Scannen und Exploit von VMs
 ### ["12_Security_Standards"](https://joseftsch.github.io/esec1/12_securitystandards/), 2LE
 * Verschiedene Standards, Frameworks und Guidelines in IT Security
+### ["10_Security_Scanning_Übung"](https://joseftsch.github.io/esec1/10_securityscanning_ue/), 2LE
+* Scannen und analysieren von zwei VMs
+### ["13_Security_Nightmares"](https://joseftsch.github.io/esec1/13_securitynightmare/), 1LE
+* Security Nightmares 2018
+### ["11_Exploit_Übung"](https://joseftsch.github.io/esec1/11_exploit_ue/), 3LE
+* Scannen und Exploit von VMs
+
