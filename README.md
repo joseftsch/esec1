@@ -20,3 +20,9 @@
 * Xerox:
   * http://connect.blogs.xerox.com/2013/08/06/always-listening-to-our-customers-clarification-on-scanning-issue/#.Weuai5-Wait
   * http://www.dkriesel.com/en/blog/2013/0802_xerox-workcentres_are_switching_written_numbers_when_scanning
+### ["03_Sicherheitsmanagement"](https://joseftsch.github.io/esec1/03_sicherheitsmanagement/), 2LE
+* Sicherheitsmanagement
+* Personen, Ämter und Zuständigkeiten
+* Organisationsstruktur
+* Policies
+* Awareness Training
