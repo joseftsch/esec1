@@ -27,3 +27,11 @@ E-Mail: josef.tschiggerl@fh-joanneum.at
 * Organisationsstruktur
 * Policies
 * Awareness Training
+#### Links
+* Geschäftsführerhaftung
+  * https://www.wko.at/service/wirtschaftsrecht-gewerberecht/Die_Haftung_des_handelsrechtlichen_Geschaeftsfuehrers_bzw..html
+* Data Breach Notification Duty
+  * https://www.wko.at/service/wirtschaftsrecht-gewerberecht/EU-Datenschutz-Grundverordnung:-Meldung-von-Datenschutzve.html
+* Verbandsverantwortlichkeitsgesetz
+  * https://www.wko.at/service/wirtschaftsrecht-gewerberecht/Verbandsverantwortlichkeitsgesetz.html
+
