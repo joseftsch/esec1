@@ -1,4 +1,5 @@
 # ESEC1 2019/2020 - FH Joanneum
+E-Mail: josef.tschiggerl@fh-joanneum.at
 ### ["01_Vorstellung/Intro"](https://joseftsch.github.io/esec1/01_intro/), 1LE
 * Vorstellung Vortragender
 * Aufbau der Lehrveranstaltung
