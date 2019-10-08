@@ -34,4 +34,5 @@ E-Mail: josef.tschiggerl@fh-joanneum.at
   * https://www.wko.at/service/wirtschaftsrecht-gewerberecht/EU-Datenschutz-Grundverordnung:-Meldung-von-Datenschutzve.html
 * Verbandsverantwortlichkeitsgesetz
   * https://www.wko.at/service/wirtschaftsrecht-gewerberecht/Verbandsverantwortlichkeitsgesetz.html
+### ["04_Sicherheitsmanagement Übung"](https://joseftsch.github.io/esec1/04_sicherheitsmanagement_ue/), 2LE
 
