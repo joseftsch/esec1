@@ -58,7 +58,7 @@ E-Mail: josef.tschiggerl@fh-joanneum.at
   * http://searchsecurity.techtarget.com/feature/The-history-of-the-PCI-DSS-standard-A-visual-timeline
 ### ["06_PCI_Übung"](https://joseftsch.github.io/esec1/06_pci_ue/), 2LE
 * Übungseinheit zu "PCI DSS"
-  * Analyse fiktives Unternehmen zum Projekt "PCI DSS"
+  * Analyse fiktives Unternehmen zu "PCI DSS"
 ### ["07_Risikoanalyse"](https://joseftsch.github.io/esec1/07_risikoanalyse/), 2LE
 * Risikoanalyse
 * Incident Response Plan
