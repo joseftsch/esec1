@@ -62,3 +62,9 @@ E-Mail: josef.tschiggerl@fh-joanneum.at
 ### ["07_Risikoanalyse"](https://joseftsch.github.io/esec1/07_risikoanalyse/), 2LE
 * Risikoanalyse
 * Incident Response Plan
+### ["08_Risikoanalyse_Übung"](https://joseftsch.github.io/esec1/08_risikoanalyse_ue/), 2LE
+* Erstellen einer Risikoanalyse
+### ["12_Security_Standards"](https://joseftsch.github.io/esec1/12_securitystandards/), 1LE
+* Vorstellung & Intro in verschiedene Sicherheitsstandards
+### ["13_Securitynightmare"](https://joseftsch.github.io/esec1/13_securitynightmare/), 2LE
+* aktuelle Ereignisse
