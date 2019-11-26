@@ -69,4 +69,4 @@ E-Mail: josef.tschiggerl@fh-joanneum.at
 ### ["13_Securitynightmare"](https://joseftsch.github.io/esec1/13_securitynightmare/), 2LE
 * aktuelle Ereignisse
 ### ["09_SecurityScanning"](https://joseftsch.github.io/esec1/09_securityscanning/), 2LE
-* aktuelle Ereignisse
+* Tools and Concepts
