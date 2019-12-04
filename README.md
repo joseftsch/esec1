@@ -72,3 +72,6 @@ E-Mail: josef.tschiggerl@fh-joanneum.at
 * Tools and Concepts
 ### ["10_SecurityScanning_Übung"](https://joseftsch.github.io/esec1/10_securityscanning_ue/), 3LE
 * Security Scanning
+### ["11_Exploit_Übung"](https://joseftsch.github.io/esec1/11_exploit_ue/),
+* Find and exploit vulnerabilities
+
