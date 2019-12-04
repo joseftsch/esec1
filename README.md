@@ -70,3 +70,5 @@ E-Mail: josef.tschiggerl@fh-joanneum.at
 * aktuelle Ereignisse
 ### ["09_SecurityScanning"](https://joseftsch.github.io/esec1/09_securityscanning/), 2LE
 * Tools and Concepts
+### ["10_SecurityScanning_Übung"](https://joseftsch.github.io/esec1/10_securityscanning_ue/),
+* Security Scanning
