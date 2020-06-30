@@ -6,8 +6,8 @@ E-Mail: josef.tschiggerl@fh-joanneum.at
   * [Sicherheitsmanagement](https://joseftsch.github.io/esec1/03_sicherheitsmanagement) - [Übung](https://joseftsch.github.io/esec1/04_sicherheitsmanagement_ue/)
   * [PCI](https://joseftsch.github.io/esec1/05_pci/) - [Übung](https://joseftsch.github.io/esec1/06_pci_ue/)
   * [Risikoanalyse](https://joseftsch.github.io/esec1/07_risikoanalyse/) - [Übung](https://joseftsch.github.io/esec1/08_risikoanalyse_ue/)
-  * [Securityscanning](https://joseftsch.github.io/esec1/09_securityscanning/) - [Übung](https://joseftsch.github.io/esec1/10_securityscanning_ue) Lab
-  * [Exploit](https://joseftsch.github.io/esec1/11_exploit_ue/) Lab
+  * [Securityscanning](https://joseftsch.github.io/esec1/09_securityscanning/) - [Übung](https://joseftsch.github.io/esec1/10_securityscanning_ue) (Lab)
+  * [Exploit](https://joseftsch.github.io/esec1/11_exploit_ue/) (Lab)
   * [Securitystandards](https://joseftsch.github.io/esec1/12_securitystandards)
   * [Securitynightmare](https://joseftsch.github.io/esec1/13_securitynightmare)
 * Resources
